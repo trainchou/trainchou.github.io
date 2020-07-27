@@ -1,0 +1,37 @@
+---
+layout: post
+title: 总结一下当前主流微博之间的协作情况
+date: '2009-09-04 21:16:12'
+tags:
+- e5-be-ae-e5-8d-9a
+- internet
+---
+
+
+<span style="font-family:AR PL UMing CN,serif;"></span>应李松明同学之邀总结一下我所了解的当前主流微博之间的协作情况。
+
+[饭否](http://fanfou.com)：希望十一以后能见到她。
+
+<span style="font-family:AR PL UMing CN,serif;"></span>[火兔](http://huotu.com)：就是原来的嘀咕，可通过插件“嘀神”同步到做啥，山寨开心网，占座网，<span style="font-family:AR PL UMing CN,serif;">Buboo,51</span>网，人人网，若邻网和<span style="font-family:AR PL UMing CN,serif;">HelloTxt</span>。同步比较及时，较为稳定。其中<span style="font-family:AR PL UMing CN,serif;">51</span>网只能同步来自火兔的英文状态（不显示汉字）到“随便说说”上。目前火兔只接收从<span style="font-family:AR PL UMing CN,serif;">follow5</span>发来的状态，不过因为<span style="font-family:AR PL UMing CN,serif;">follow5</span>功能没有火兔齐全，故我现在仍使用“火兔”作为入口。
+
+<span style="font-family:AR PL UMing CN,serif;"></span>[叽歪](http://jiwai.de)：被封以后以特殊的方式运营（具体方式私下交流）。它比较特别的一点就是能从校内（人人网）同步，即通过校内（人人网）签名更新叽歪，另一点特别的是它能将用户所跟随的好友的更新发到用户绑定的<span style="font-family:AR PL UMing CN,serif;">IM</span>上，尤其好的一点是这些<span style="font-family:AR PL UMing CN,serif;">IM</span>包括飞信，就是说用户可以通过飞信以手机短信的形式接受好有的状态更新。另外可以通过<span style="font-family:AR PL UMing CN,serif;">Facebook</span>和<span style="font-family:AR PL UMing CN,serif;">Twitter</span>接收和更新。值得一提的是叽歪支持<span style="font-family:AR PL UMing CN,serif;">OpenId</span>。
+
+<span style="font-family:AR PL UMing CN,serif;"></span>[做啥](http://www.zuosa.com/)：<span style="font-family:AR PL UMing CN,serif;">rss</span>更新提示的功能比较好用（当用户在绑定的博客上发表文章，做啥会自动发表提示）。可同步到<span style="font-family:AR PL UMing CN,serif;">Twitter</span>，<span style="font-family:AR PL UMing CN,serif;">Buboo</span>，叽歪和<span style="font-family:AR PL UMing CN,serif;">9911</span>。
+
+<span style="font-family:AR PL UMing CN,serif;">[follow5](http://www.follow5.com/)</span>：成长中的微博，目前可更新到叽歪，火兔，做啥和开心网。
+
+<span style="font-family:AR PL UMing CN,serif;"></span>[贫嘴](http://pinzui.com/)：目前用户仍为三位数，支持<span style="font-family:AR PL UMing CN,serif;">OpenId</span>，各方面功能尚不健全。
+
+<span style="font-family:AR PL UMing CN,serif;">[Buboo](http://buboo.tw/)</span>：来自台湾的微博，可同步到<span style="font-family:AR PL UMing CN,serif;">twitter</span>。
+
+<span style="font-family:AR PL UMing CN,serif;">[twitter](http://twitter.com)</span>：目前被关在墙外。
+
+<span style="font-family:AR PL UMing CN,serif;">[HelloTxt](http://hellotxt.com/):</span>支持同步的微博非常非常多，但是我测试的到几个国内微博的同步非常不稳定，不推荐使用，同步到<span style="font-family:AR PL UMing CN,serif;">facebook</span>和<span style="font-family:AR PL UMing CN,serif;">twitter</span>还是很好的。 <span style="font-family:AR PL UMing CN,serif;">rss</span>更新提示的功能比较好用。
+
+随着各家微博新功能的开发，他们之间的协作也会日益密切，相信不久以后同步所有的微博会是一件很轻松的事。
+
+目前知道的就这些，希望对你有帮助！
+
+如有讹误，还请各路朋友批评指正！
+
+

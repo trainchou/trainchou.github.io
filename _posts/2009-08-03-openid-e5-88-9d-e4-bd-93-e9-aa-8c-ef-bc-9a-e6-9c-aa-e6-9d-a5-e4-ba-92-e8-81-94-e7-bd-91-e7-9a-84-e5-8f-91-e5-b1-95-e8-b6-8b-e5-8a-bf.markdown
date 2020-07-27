@@ -1,0 +1,19 @@
+---
+layout: post
+title: OPENID初体验：未来互联网的发展趋势
+date: '2009-08-03 00:22:42'
+tags:
+- openid
+- internet
+---
+
+
+前几天初次碰到OPENID这个概念。
+
+不知道为什么，本人很爱“OPEN”，在弄清楚OPENID的含义并试用了以后，我感觉这个会是一个给我们带来方便的东西。（经过比较后，我选择在[http://www.myopenid.com](http://www.myopenid.com)注册。）
+
+先在提供OPENID的网站上注册，然后你就会获得一个你自己的OPENID。这样以后当你注册一个支持OPENID的网站时只需用你的OPENID（一般是一个URL）登录，然后这个网站就会从你的OPENID的账号设置中自动提取相应的用户信息，自动进行注册。
+
+这个功能对于我这种遍地留“名”的网友来说实在是太有用了，只是现在支持OPENID的网站还不是很多，期待OPENID能够尽快推广起来，给互联网的使用带来方便。
+
+

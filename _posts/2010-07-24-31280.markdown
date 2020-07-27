@@ -1,0 +1,81 @@
+---
+layout: post
+title: 安装了Postgresql, PostGIS 和 QGIS
+date: '2010-07-24 00:36:01'
+tags:
+- gis
+---
+
+
+今天在Linux下安装了Postgresql, PostGIS 和 QGIS，打算从现在开始研究一下开源GIS，安装过程参考下文，转载过来，明天把Mapserver安装上。
+
+> postgresql 是一个强大的开源关系型数据库，可以安装在windows 、Max OSX 和 Linux三大平台。网上有人说postgresql强于mysql，相当于MS SQLServer，甚至还有人把它和Oracle相比，呵呵，我自己没有认真去比较，在此不敢断言。  
+>  postgis是postgresql的一个扩展，它为postgresql增加了geometry数据类型和一些空间运算函数，等等，简言之，postgis为postgresql增加了地理空间对象，使postgresql有了空间数据库的功能。具体说明可以去PostGIS官方网查看。 ＞＞http://postgis.refractions.net/  
+>  QGIS，全称为Quantum GIS。QGIS是一个用户界面友好的地理信息系统，可运行在Linux,Mac OSX,和Windows平台。QGIS支持vector,raster和database格。它能够很好得支持PostGIS。  
+>  Ubuntu是现今最流行最易用的Linux系统，由一个社区开发，永久免费，3D桌面超炫，目前最新版本为8.10。  
+>  如果你对GIS有兴趣，如果你对喜欢开源软件，如果你想不花任何＄而有着DIY精神的话，我觉得PostgreSql+PostGIS+QGIS+Ubuntu 是学习GIS的不错选择。下面言归正传。
+> 
+> 一、安装PostgreSql  
+>  打开新立得软件包管理器，选择postgresql，当前最新版本为8.3.3，点击“应用”即可。或者在终端中键入：  
+>  sudo apt-get install postgresql  
+>  postgresql配置：  
+>  1、修改postgres密码  
+>  postgres是postgresql安装时自动创建的超级用户。使用之前要修改其密码，方法如下：  
+>  sudo -u postgres psql postgres  
+>  出现新的提示符。输入：（其中  
+>  就表示密码，注意最后的分号不可省）  
+>  ALTER USER postgres WITH ENCRYPTED PASSWORD ‘  
+>  ‘;  
+>  q  
+>  为了测试，可创建一个数据库：  
+>  sudo -u postgres createdb mydb  
+>  至此postgresql数据库已经能用了。但是这只是命令行模式，很多人肯定想问有没有图形界面。答案是肯定的。  
+>  安装postgresql图形界面的方法：  
+>  sudo apt-get install pgadmin3  
+>  安装好后，输入pgadmin3即可启动postgresql图形界面程序，当然你也可以自己创建启动器。  
+>  二、安装PostGIS  
+>  同样，安装postgis也有几种方式。一种是新立得软件包管理器中选择postgis安装，另一种是键入：  
+>  sudo apt-get install postgis  
+>  推荐用前者，我自己用后者安装多次没成功。  
+>  配置postgis：  
+>  使用postgis之前，要创建一个支持postgis扩展的postgresql空间数据库。  
+>  1、切换到<del datetime="2010-07-23T16:25:57+00:00">postgre</del>postgres超级用户  
+>  sudo su <del datetime="2010-07-23T16:25:57+00:00">postgre</del> postgres
+> 
+> 2、创建数据库  
+>  createdb gisdb  
+>  3、设置postgis libs  
+>  createlang plpgsql gisdb  
+>  psql -d gisdb -f /usr/share/postgresql/8.x/contrib/postgis-x.x.x/lwpostgis.sql  
+>  如果找不到的话，执行：  
+>  psql -d gisdb -f /usr/share/postgresql-8.x-postgis/lwpostgis.sql
+> 
+> psql -d gisdb -f /usr/share/postgresql/8.x/contrib/postgis-x.x.x/spatial_ref_sys.sql  
+>  同样，如果找不到的话，执行：  
+>  ＄psql -d gisdb -f /usr/share/postgresql-8.x-postgis/spatial_ref_sys.sql  
+>  我是用新立得软件包管理器安装的，postgis路径在后者，执行上面命令时先确定一下postgis安装路径即可  
+>  现在postgis已经配置好。下面我们测试一下。用shp2pgsql命令将shapefile导入到postgresql数据库：  
+>  sudo shp2pgsql -s “4326” -W “GBK” blocks.shp blocks > blocks.sql  
+>  其中blocks.shp为shapefile文件，blocks.sql为转换后生成的sql文件，在postgresql中的gisdb数据库执行  
+>  这个sql文件，就可以将shapefile文件导入到数据库。  
+>  也可以命令下面命令执行：  
+>  sudo psql -d 数据库名 -f blocks.sql  
+>  并且可以用QGIS连接postgresql数据库，以显示shp文件中的图形。  
+>  三、安装QGIS  
+>  首先看看新立得软件包管理器有没有QGIS软件包，有就直接安装，没有的话，用如下命令打开软件源列表：  
+>  sudo gedit /etc/apt/sources.list  
+>  在最后添加QGIS源：  
+>  deb http://ppa.launchpad.net/qgis/ubuntu hardy main  
+>  (这是ubuntu8.04的源，你可以到QGIS官方网找最新的源)  
+>  然后更新软件源：  
+>  sudo apt-get update  
+>  安装QGIS：  
+>  sudo apt-get install qgis  
+>  安装好后，输入qgis即可启动QGIS.
+> 
+> 至此，Ubuntu平台下的postgresql＋postgis＋qgis组合已经全部安装好了。  
+>  你可以任凭自己的想像遨游于伟大的Ubuntu系统下的GIS世界了。
+
+[原文链接](http://hi.baidu.com/qi_xian/blog/item/fea5ba1e6dfbf3f21ad5762b.html)
+
+

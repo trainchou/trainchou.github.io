@@ -1,0 +1,22 @@
+---
+layout: post
+title: 肖像变卡通，变变变！
+date: '2008-12-14 04:31:00'
+---
+
+
+话说开学初，我心血来潮开始研究用PS把肖像照片转成卡通形象。完全靠自己摸索，结果还是比较令我满意的，大概的方法就是利用海报边缘和一系列的图层处理，只保留画面轮廓，然后再用PS进行填色，最后加上阴影，使画面有立体感和真实感。因为以前对绘画和漫画没有什么研究，所以在制作的过程中在网上搜了很多卡通漫画来学习各个细节的处理方法。
+
+<div><div>因为没有手写板，画面上的线条都是用鼠标画出来的，弯弯曲曲还有抖动很难看。灵感来源于曾经看到一本漫画教程上的制作方法是先在纸上画好轮廓，然后扫描到电脑里进行填色。我不会画漫画，但是我可以按照我在电脑上做好的进行临摹，我没有扫描仪，但是我有相机~~</div><div>几个星期前我就买来了速写本和书法笔，可能是心痛那崭新的本子不忍心糟蹋，昨天才开始试验。先用PS打开已经做好的我的一个头像，然后显示网格，对于初学者来说这样更容易把握画面的比例。然后用铅笔在速写本上临摹下来，结果比我想象的要好。完成后我就迫不及待的用相机拍下，然后传到电脑里。提取轮廓的过程又出现了麻烦，由于光源是点光源，使得画面各个位置的亮度不同，有的暗处白纸的灰度竟然和亮处轮廓的灰度差不多了！</div><div>解决这个问题不难。</div><div>我用书法笔又将轮廓描了一遍，这下轮廓和白纸的对比就强烈了。再转到电脑里，效果就好得多了，接下来就是填色和加阴影。最终的成果看起来要比原图要胖了，可是这是我第一次真正用笔手绘的成果啊，呵呵，还是比较满意的。![](http://lh4.ggpht.com/_3JNtbZXLqls/SUSS31Ok_VI/AAAAAAAAACo/P0kZt3Fbmp0/%E6%89%8B%E7%BB%98Logo%E5%88%B6%E4%BD%9C%E8%BF%87%E7%A8%8B.png)</div></div>[![](http://lh5.ggpht.com/_3JNtbZXLqls/SUSUtvkWVkI/AAAAAAAAAC4/3Pj2oFmDytE/%E6%8F%92%E7%94%BB.jpg)](http://lh5.ggpht.com/_3JNtbZXLqls/SUSUtvkWVkI/AAAAAAAAAC4/3Pj2oFmDytE/%E6%8F%92%E7%94%BB.jpg)
+
+今天在校内wander的时候又发现了GORJUSS插画的风格我很喜欢，简单又唯美。准备下次试试~
+
+[](http://lh5.ggpht.com/_3JNtbZXLqls/SUSUtvkWVkI/AAAAAAAAAC4/3Pj2oFmDytE/%E6%8F%92%E7%94%BB.jpg)
+
+[](http://3.bp.blogspot.com/_3JNtbZXLqls/SUSUtvkWVkI/AAAAAAAAAC4/3Pj2oFmDytE/s1600-h/%E6%8F%92%E7%94%BB.jpg)
+
+[](http://3.bp.blogspot.com/_3JNtbZXLqls/SUSUtvkWVkI/AAAAAAAAAC4/3Pj2oFmDytE/s1600-h/%E6%8F%92%E7%94%BB.jpg)
+
+[](http://3.bp.blogspot.com/_3JNtbZXLqls/SUSUtvkWVkI/AAAAAAAAAC4/3Pj2oFmDytE/s1600-h/%E6%8F%92%E7%94%BB.jpg) [](http://3.bp.blogspot.com/_3JNtbZXLqls/SUSUtvkWVkI/AAAAAAAAAC4/3Pj2oFmDytE/s1600-h/%E6%8F%92%E7%94%BB.jpg)
+
+
